@@ -1,0 +1,292 @@
+/* Este archivo servira para agregar propiedades */
+
+
+/*Propiedades del encabezado*/
+.ENCABEZADO{
+    width: 134.9rem;
+    height: 10rem;
+    padding: 3rem 0 0 3rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+    background-color: rgba(170, 170, 159, 0.664);
+}
+
+/*Estas propiedades son para indicar que este es el padre de los circulos*/
+.circle{
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Son las propiedades para los tres circulos (hijos)*/
+.circle article {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+    border-radius: 50rem;
+    margin: 1.5rem 0 0 1rem;
+    display:flex;
+    flex-direction: column;
+}
+
+/* Propiedades del cuadro blanco que está dentro del encabezado*/
+.rectangulo {
+    width: 106.7rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    margin: 0 0 0 7rem;
+}
+
+
+
+
+/* Propiedades para el nav*/
+.oscuro {
+    width: 134.9rem;
+    height: 6rem;
+    padding: 1rem 0 0 0;
+    background-color: rgba(22, 20, 39, 0.664);
+}
+
+/*Propiedades para el cuadro dentro del nav*/
+.cuadrorojo {
+    width: 12rem;
+    height: 4rem;
+    border-radius: 0.7rem;
+    background-color: rgb(224, 39, 39);
+    margin: 0 0 2rem 112rem;
+}
+
+/*Propiedades para la imagen de la lupa*/
+.cuadrorojo img {
+    width: 4rem;
+    height: 4rem;
+    margin: 0 0 0 15rem;
+}
+
+
+
+
+/*Propiedades de los dos primeros cuadros (PAPA)*/
+.content{
+    width: 134.9rem;
+    height: 28rem;
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Propiedades para el cuadrado principal (HIJO)*/
+.cuadrobig {
+    width: 120.2rem;
+    height: 28rem;
+    background-color: rgba(170, 170, 159, 0.664);
+    margin: 1rem 0 0 1.8rem;
+    padding: 12rem 0 0 3rem;
+    border-radius: 0.5rem;
+    display:flex;
+    flex-direction: column;
+}
+
+/*Propiedades para el rectangulo dentro del cuadrado principal*/
+.cuadrec {
+    width: 63rem;
+    height: 3rem;
+    background-color: rgba(108, 109, 104, 0.932);
+    border-radius: 0.5rem;
+    margin: 10rem 0 0 0;
+}
+
+/*Propiedades del rectangulo vertical mas grande (HIJO)*/
+.column {
+    width: 55rem;
+    height: 102.5rem;
+    background-color:   rgba(204, 204, 191, 0.664);
+    margin: 1rem 1.8rem 0 3rem;
+    padding: 8rem 0 0 3rem;
+    border-radius: 0.5rem;
+    display:flex;
+    flex-direction: column;
+}
+
+/*Propiedades del primer cuadro dentro del rectangulo más grande*/
+.uno {
+    width: 23.5rem;
+    height: 10rem;
+    margin: 0  0 2rem 11rem;
+    background-color:  rgba(170, 170, 159, 0.664);
+    position: relative;
+    -moz-border-radius: 10rem;
+    -webkit-border-radius: 10rem;
+    border-radius: 0.5rem;
+}
+
+ /*Propiedades para el triangulo que está a la par del primer cuadrado*/
+.uno:before{
+    content: "";
+    position: absolute;
+    right: 23.5rem;
+    top: 4rem;
+    border-top: 1rem solid transparent;
+    border-right: 2rem solid rgba(170, 170, 159, 0.664);
+    border-bottom: 1rem solid transparent;
+    border-radius: 0 0 0 6rem;
+}
+
+/*Propiedades del segundo cuadro dentro del rectangulo más grande*/
+.dos{
+    width: 23.5rem;
+    height: 10rem;
+    margin: 0  0 1rem 11rem;
+    background-color:  rgba(170, 170, 159, 0.664);
+    position: relative;
+    -moz-border-radius: 10rem;
+    -webkit-border-radius: 10rem;
+    border-radius: 0.5rem;
+}
+
+ /*Propiedades para el triangulo que está a la par del segundo cuadrado*/
+.dos:before{
+    content: "";
+    position: absolute;
+    right: 23.5rem;
+    top: 4rem;
+    border-top: 1rem solid transparent;
+    border-right: 2rem solid rgba(170, 170, 159, 0.664);
+    border-bottom: 1rem solid transparent;
+    border-radius: 0 0 0 6rem;
+}
+
+/*Propiedades del tercer cuadro dentro del rectangulo más grande*/
+.tres {
+    width: 23.5rem;
+    height: 10rem;
+    margin: 0  0 2rem 11rem;
+    background-color:  rgba(170, 170, 159, 0.664);
+    position: relative;
+    -moz-border-radius: 10rem;
+    -webkit-border-radius: 10rem;
+    border-radius: 0.5rem;
+}
+
+ /*Propiedades para el triangulo que está a la par del tercer cuadrado*/
+.tres:before {
+    content: "";
+    position: absolute;
+    right: 23.5rem;
+    top: 4rem;
+    border-top: 1rem solid transparent;
+    border-right: 2rem solid rgba(170, 170, 159, 0.664);
+    border-bottom: 1rem solid transparent;
+    border-radius: 0 0 0 6rem;
+}
+
+/*Propiedades del cuarto cuadro dentro del rectangulo más grande*/
+.cuatro {
+    width: 23.5rem;
+    height: 10rem;
+    margin: 0  0 3rem 11rem;
+    background-color:  rgba(170, 170, 159, 0.664);
+    position: relative;
+    -moz-border-radius: 10rem;
+    -webkit-border-radius: 10rem;
+    border-radius: 0.5rem;
+}
+
+ /*Propiedades para el triangulo que está a la par del cuarto cuadrado*/
+.cuatro:before{
+    content: "";
+    position: absolute;
+    right: 23.5rem;
+    top: 4rem;
+    border-top: 1rem solid transparent;
+    border-right: 2rem solid rgba(170, 170, 159, 0.664);
+    border-bottom: 1rem solid transparent;
+    border-radius: 0 0 0 6rem;
+}
+
+/*Propiedad del quinto cuadro dentro del rectangulo más grande*/
+.ultimocuadro {
+    width: 35.5rem;
+    height: 27rem;
+    background-color: rgba(170, 170, 159, 0.664);
+    border-radius: 0.5rem;
+}
+
+
+
+
+/* Propiedades del papa de los seis cuadrados*/
+.seixcuadrados {
+    width: 97.3rem;
+    margin: 4rem 0 0 0;
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+/*Estos son los 6 hijos cuadrados*/
+.seixcuadrados article {
+    width: 27.8rem;
+    height: 20rem;
+    background-color: rgba(170, 170, 159, 0.664);
+    margin: 0 0 2rem 2rem;
+    border-radius: 0.5rem;
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+
+/*Propiedades de un cuadradado que guarda dos cuadrados más (PAPA)*/
+.last {
+    width: 87rem;
+    margin: 2.5rem 0 0 1.8rem;
+    display:flex;/*Alineación de bloques hijos*/
+    flex-direction:row;
+}
+
+/*Propiedades dle primer cuadrado (HIJO)*/
+.primercuad{
+    width: 23rem;
+    height: 15rem;
+    background-color: rgba(170, 170, 159, 0.664);
+    border-radius: 0.5rem;
+    display:flex;
+    flex-direction: column;
+}
+
+/*Propiedades del segundo cuadrado(HIJO)*/
+.secondcuad{
+    width: 60rem;
+    height: 20rem;
+    margin: 0 0 2rem 2rem;
+    padding: 1.5rem 0 0 0;
+    display:flex;
+    flex-direction: column;
+}
+
+/*Propiedades del primer articulo del segundo cuadrado */
+.onerec {
+    width: 60rem;
+    height: 3rem;
+    background-color:  rgba(108, 109, 104, 0.932);
+    border-radius: 0.5rem;
+    margin: 0 0 1rem 0;
+}
+
+/*Propiedades del segundo articulo del segundo cuadrado*/
+.tworec {
+    width: 60rem;
+    height: 3rem;
+    background-color: rgba(170, 170, 159, 0.664);
+    border-radius: 0.7rem;
+    margin: 0 0 1rem 0;
+}
+
+/*Propiedades del ultimo articulo del segundo cuadrado*/
+.threerec{
+    width: 11rem;
+    height: 3rem;
+    border-radius: 0.7rem;
+    background-color: rgba(160, 160, 143, 0.664);
+}
