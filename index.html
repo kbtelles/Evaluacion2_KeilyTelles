@@ -6,60 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <!-- Archivos CSS -->
+    <!-- ARCHIVOS CSS -->
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/configuraciones.css">
+
+    <!-- ARCHIVO DE GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
 
 </head>
 <body>
         
     <header class="ENCABEZADO"><!--Etiqueta para la estructura del encabezado-->
     <section class="circle">  <!--Esto servira como estructura de los tres circulos que estan en el encabezado-->
-        <article></article> <!--Cada article es un circulo-->
-        <article></article>
-        <article></article>
+        <article class="circlered"></article> <!--Este article es para el circulo rojo-->
+        <article class="circleyellow"></article> <!--Este article es para el circulo amarillo-->
+        <article class="circleblue"></article> <!--Este article es para el circulo azul-->
         <div class="rectangulo"> </div> <!--Esta etiqueta es para el cuadro blanco del encabezado-->
     </section>
     </header>
 
 
     <nav class="oscuro"> <!--Etiqueta para la estructura de la parte más oscura-->
-        <article class="cuadrorojo"> <!--Etiqueta para la estructura de el cuadro rojo que está dentro del nav-->
+        <div class="cuadrorojo"> <!--Etiqueta para la estructura de el cuadro rojo que está dentro del nav-->
+        <h1 class="usuario"> kbtelles </h1> <!--Mi usuario que va dentro del cuadro rojo-->
         <img src="https://pngimage.net/wp-content/uploads/2018/06/lupa-blanca-png.png">  <!-- imagen de la lupa que está dentro del nav-->
-        </article>
+        </div>
     </nav>
 
 
     <section class="content"> <!--Esta etiqueta es para que pueda indicar que es el padre de dos columnas-->
-        <div class="cuadrobig"> <!--Esta etiqueta sirve para un cuadrado (una columna)-->
-            <article class="cuadrec"></article> <!--Esta etiqueta es para la estructura de un rectangulo que esta dentro del div-->
-        </div> 
+        <div class="cuadrogris"> <!--Este sera un cuadro que anteriormente era gris pero que actualizado se vuelve un cuadro que sostiene a una imagen y un texto (primera columna)-->
+            <img class="spotyfy" src="https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F56fba7d7-2f6d-43d3-8990-4b2ce0967fca%2Fspenser-sembrat-J23AXE8tPDo-unsplash.jpg?table=block&id=7f85ae2d-ffdc-44fc-adfb-e9a0349b4ccb&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=2000&userId=&cache=v2"> <!--Esta imagen es la que va dentro del cuadro gris-->
+            <article class="color"> <!--Este articulo va encima de la imagen y contiene un texto-->
+                <h1 class="cuadrotexto"> La mejor Playlist, es la que te permite trabajar </h1> <!--Este es el texto que va dentro del article-->
+            </article>
+        </div>
+
         <aside class="column"> <!--Este aside es para el otro cuadro (segunda columna)-->
-            <article class="uno"></article> <!--Todos los article son para los cuadrados que estan dentro de el aside-->
-            <article class="dos"></article>
-            <article class="tres"></article>
-            <article class="cuatro"></article>
-            <article class="ultimocuadro"> </article>
+            <!--Cada img es una imagen que fue compartida por el profesor-->
+            <img class="uno" src="https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F68b0b3a1-024b-4106-a5b3-a971be72ef71%2Fhtml.jpg?table=block&id=2557679d-a7b2-46c8-a961-51e8869165ac&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=2000&userId=&cache=v2"> <!--Todos los article son para los cuadrados que estan dentro de el aside-->
+            <img  class="dos" src="https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fce88424f-8c4c-4516-b372-ec5035051f78%2FQue-es-CSS.jpg?table=block&id=a8b02256-ff86-4773-8f05-751baaf9f668&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=1950&userId=&cache=v2">
+            <img class="tres" src="https://diegoboscan.com/static/738155fe5ef8b31a8de213cbd0295fc8/743e0/js-1.png">
+            <img class="cuatro" src="https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc6d8f96d-c108-4bf3-ac7c-f4f47cda1c35%2Fque-es-SQL.png?table=block&id=cd364e4e-a567-42e1-98f4-44638fb2b382&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=1600&userId=&cache=v2">
+            <img class="ultimocuadro" src="https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png"> 
         </aside>
     </section>
 
 
     <section class="seixcuadrados"> <!--Esto servira para la estructura de los seis cuadrados-->
-        <article></article> <!--Cada article es un cuadrado-->
-        <article></article>
-        <article></article>
-        <article></article>
-        <article></article>
-        <article></article>
+
+        <div class="lenguaje1"> <!--Esta es la primera división es decir es el primer cuadro-->
+            <article class="color1"> <!-- Este article estara arriba de la imagen y contendra un texto-->
+                <h1  class="nombre1"> Phyton </h1> <!--Este es el texto que va dentro del article-->
+            </article>
+            <img class="Phyton" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png" > <!--Esta es la imagen que va dentro del cuadro-->
+        </div> 
+
+        <div class="lenguaje2"> <!--Segundo cuadro -->
+            <article class="color2"> <!-- Este article estara arriba de la imagen y contendra un texto-->
+                <h1  class="nombre2"> Java </h1> <!--Este es el texto que va dentro del article-->
+            </article>
+            <img class="Java" src="https://i.blogs.es/8d2420/650_1000_java/1366_2000.png"> <!--Esta es la imagen que va dentro del cuadro-->
+        </div>
+
+        <div class="lenguaje3"> <!--Tercer cuadro -->
+            <article class="color3"> <!-- Este article estara arriba de la imagen y contendra un texto-->
+                <h1  class="nombre3"> PHP </h1> <!--Este es el texto que va dentro del article-->
+            </article>
+            <img class="PHP" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png"> <!--Esta es la imagen que va dentro del cuadro-->
+        </div>
+        
+        <div class="lenguaje4"> <!--Cuarto cuadro -->
+            <img class="R" src="https://i.blogs.es/3eae46/650_1000_rlogo/450_1000.png"> <!--Esta es la imagen que va dentro del cuadro-->
+            <article class="color4"> <!-- Este article estara abajo de la imagen y contendra un texto-->
+                <h1 class="nombre4"> R </h1> <!--Este es el texto que va dentro del article-->
+            </article>
+        </div>
+
+        <div class="lenguaje5"> <!--Quinto cuadro --> 
+            <img class="Matlab" src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"> <!--Esta es la imagen que va dentro del cuadro-->
+            <article class="color5"> <!-- Este article estara abajo de la imagen y contendra un texto-->
+                <h1 class="nombre5"> Matlab </h1> <!--Este es el texto que va dentro del article-->
+            </article>
+        </div>
+        
+        <div class="lenguaje6"> <!--Sexto cuadro -->
+            <img class="Groovy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/1200px-Groovy-logo.svg.png"> <!--Esta es la imagen que va dentro del cuadro-->
+            <article class="color6"> <!-- Este article estara abajo de la imagen y contendra un texto-->
+                <h1 class="nombre6"> Groovy </h1> <!--Este es el texto que va dentro del article-->
+            </article>
+        </div>
     </section>
 
 
     <section class="last"> <!--Esta etiqueta es la estructura de un cuadrado que guardara dos cuadrados más-->
-            <article class="primercuad"></article> <!--Este es el primer cuadrado-->
-        <div class="secondcuad"> <!--Este es el segundo y este cuadrado guardara articulos-->
-            <article class="onerec"></article> <!--Estos son los tres articulos que guardara el segundo cuadrado-->
-            <article class="tworec"></article>
-            <article class="threerec"></article>
+            <img class="primercuad" src="https://rockemma.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fb5872d08-137f-407c-97ff-d7386ec58f44%2FLogoSCL-01.png?table=block&id=05f1d4b7-8f01-4284-b2c8-dd53072fab5a&spaceId=0915e43f-c5dd-45d3-87ce-889609799330&width=2000&userId=&cache=v2"> <!--Este es la imagen del logo del colegio-->
+        <div class="secondcuad"> <!--Este es el segundo y este cuadrado guardara un textp-->
+            <p class="ultimotexto">Para ser un desarrollador web debemos conocer todas las tecnologías involucradas, entre ellas están html, css, javascript y sql, una vez comprendido los temas básicos trabajar con frameworks como react.</p> <!--Este es un parrafo que ira dentro del cuadrado-->
         </div>            
     </section>
 

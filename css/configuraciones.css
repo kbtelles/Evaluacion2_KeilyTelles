@@ -8,6 +8,6 @@
 
 html {
     font-size: 10px;
-    font-family: monospace;
-    max-width: 1366px;
+    font-family: 'Inter', sans-serif; /* el "Inter" es un tipo de letra sacado de google fonts y por si no funciona en algunos dispositivos se usa el "sans-serif" que es un tipo de letra parecido*/
+    max-width: 1366px; /* tamaño maximo de la página*/
 }
